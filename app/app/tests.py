@@ -8,16 +8,16 @@ from app import calc
 
 
 class ClacTest(SimpleTestCase):
-  """Test the calc moduke."""
+    """Test the calc moduke."""
 
-  def test_add_numbers(self):
-    """Test adding numbers together."""
-    res = calc.add(5, 6)
+    def test_add_numbers(self):
+        """Test adding numbers together."""
+        res = calc.add(5, 6)
 
-    self.assertEqual(res, 11)
+        self.assertEqual(res, 11)
 
-  def test_substract_number(self):
-    """Test substracting numbers"""
-    res = calc.substract(10, 15)
+    def test_substract_number(self):
+        """Test substracting numbers"""
+        res = calc.substract(10, 15)
 
-    self.assertEqual(res, 5)
+        self.assertEqual(res, 5)
